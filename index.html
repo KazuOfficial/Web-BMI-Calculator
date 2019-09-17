@@ -14,6 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"/>
 	</head>
 	<body>
+		<content>
 		<div id="container"/>
 			<header>
 				<div id="header" class="disable-select"/>
@@ -26,13 +27,14 @@
 			</div>
 			<div id="height" class="text disable-select" style="float: right; margin-right: 100px;"/>
 				Height
-			</div>
+			</div>M
 			<div id="weightbox">
 				<input type="text" name="weightbox" class="textbox" style="clear: both;"/>
 			</div>
 			<div id="heightbox">
 				<input type="text" name="heightbox" class="textbox" style="float: right; margin-right: 135px;"/>
 			</div>
+
 			<script type="text/javascript">
 			var field = document.querySelector('[name="weightbox"]');
 			field.addEventListener('keypress', function ( event ) {
@@ -41,6 +43,7 @@
 			event.preventDefault();
 			}});
 			</script>
+
 			<script type="text/javascript">
 			var field = document.querySelector('[name="heightbox"]');
 
@@ -50,16 +53,19 @@
 			event.preventDefault();}
 			});
 			</script>
+
 			<div id="submit">
 				<input type="image" src="img/submit.png" class="image disable-select" style="clear: both; width: 200px; margin-left: 130px; margin-top: 70px;" border="0" alt="Submit"/>
 			</div>
+			<div id="result" class="text disable-select" style="float: right; margin-right: 80px;"">
+				Result
+			</div>
 			</content>
 			<footer>
-				<div id="footer"/>
-					<!--Made by Kazu. Check out my <a href="https://github.com/KazuGod/" target="_blank" class="tilelink"><i class="demo-icon icon-github-circled"></i></a>
-					Submit button: www.pngriver.com
-					Icon made by Freepik from www.flaticon.com
-					-->
+					<div id="footer" style="clear: both; padding-top: 50px; margin-left: 120px;"/>
+					Made by Kazu. Check out my <a href="https://github.com/KazuOfficial/" target="_blank" class="tilelink"><i class="demo-icon icon-github-circled"></i></a>
+					Submit button: www.pngriver.com.
+					Icon made by Freepik from www.flaticon.com.
 				</div>
 			</footer>
 		</div>
