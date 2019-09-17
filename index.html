@@ -29,10 +29,10 @@
 				Height
 			</div>M
 			<div id="weightbox">
-				<input type="text" name="weightbox" class="textbox" style="clear: both;"/>
+				<input type="text" id="wgtb" name="weightbox" class="textbox" style="clear: both;"/>
 			</div>
 			<div id="heightbox">
-				<input type="text" name="heightbox" class="textbox" style="float: right; margin-right: 135px;"/>
+				<input type="text" id="hgtb" name="heightbox" class="textbox" style="float: right; margin-right: 135px;"/>
 			</div>
 
 			<script type="text/javascript">
@@ -55,7 +55,7 @@
 			</script>
 
 			<div id="submit">
-				<input type="image" src="img/submit.png" class="image disable-select" style="clear: both; width: 200px; margin-left: 130px; margin-top: 70px;" border="0" alt="Submit"/>
+				<input type="image" src="img/submit.png" class="image disable-select" style="clear: both; width: 200px; margin-left: 130px; margin-top: 70px;" border="0" alt="Submit" onclick="calc()" />
 			</div>
 			<div id="result" class="text disable-select" style="float: right; margin-right: 80px;"">
 				Result
