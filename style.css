@@ -23,6 +23,15 @@ body
     border-width: 5px;
 }
 
+#bmi
+{
+	color: green;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	text-align: center;
+}
+
 .text
 {
 	background-color: white;
