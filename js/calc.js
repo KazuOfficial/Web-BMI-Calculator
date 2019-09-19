@@ -5,9 +5,9 @@ function calc()
 	var height2 = height * height
 	var result = weight/height2;
 
-	if(height == 0 || weight == 0)
+	if(height == 0 || weight == 0 || height > 300 || weight > 600)
 	{
-		document.getElementById("result").style.marginRight = ''
+		document.getElementById("result").style.marginRight = '65px'
 		document.getElementById("result").innerHTML = "Wrong value!"
 	}
 	else
