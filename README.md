@@ -1,5 +1,5 @@
 # BMI-Calculator
-Web BMI calculator with the additional use of Google Fonts and Fontello.
+Web BMI calculator that uses Google Fonts and Fontello.
 
 **Link** : **[https://kazuofficial.github.io/BMI-Calculator/](https://kazuofficial.github.io/BMI-Calculator/)**</br>
 
