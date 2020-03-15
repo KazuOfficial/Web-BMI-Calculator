@@ -1,7 +1,10 @@
 language: csharp
-mono: none
-dotnet: 2.1.502
-solution: solution-name.sln
+solution: travis-mono-test.sln
+
+jobs:
+  include:
+    - dotnet: 2.1.502
+      mono: none
 script:
   - dotnet restore
   - dotnet test
