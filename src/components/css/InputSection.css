@@ -25,8 +25,8 @@ input[type="submit"] {
   font-weight: 400;
 }
 
-#fheight,
-#fweight {
+#height,
+#weight {
   float: left;
 }
 
@@ -44,4 +44,8 @@ h3 {
   font-size: 1.8vh;
   color: #343f56;
   float: left;
+}
+
+#result {
+  font-size: 1.5em;
 }

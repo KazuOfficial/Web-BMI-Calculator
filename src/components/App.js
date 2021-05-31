@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./css/App.css";
 import "./css/InputSection.css";
 
-import Navbar from "./layout/Navbar";
+import Navbar from "./main/Navbar";
 import InputSection from "./main/InputSection";
 
 class App extends Component {
